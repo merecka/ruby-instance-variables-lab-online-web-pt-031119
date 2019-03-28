@@ -1,4 +1,3 @@
-require 'pry'
 class Dog
 
   def name=(dog_name)
@@ -12,7 +11,6 @@ class Dog
   lassie = Dog.new
   lassie.name = "Lassie"
 
-binding.pry
   lassie.name
 
 end
